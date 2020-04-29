@@ -1,0 +1,110 @@
+.card-movie {
+  height: 100%;
+}
+
+.card-desc {
+  height: 70%;
+}
+
+.btn-add {
+  margin: 20px;
+}
+
+.modal-body Input {
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+
+
+
+.App {
+  text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Montserrat", sans-serif;
+	font-size: 12px;
+	background-color:#edf2f0;
+  color: #b4b4b4;
+  margin: 20px;
+ 
+}
+
+.App-header {
+  background-color: #edf2f0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #eeecec;
+  
+}
+.img-profile{
+  border: '1px solid black';
+  background-color: white;
+  color:black;
+  width: 35%;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+.profile{
+  border:'1px solid black';
+  background-color: #d1cfcf;
+  color: black;
+  width: 30%;
+
+}
+.input-search{
+  width: 350px;
+  height: 40px;
+  margin: 16px 0;
+  padding-left: 25px ;
+  font-size: 12px;
+	letter-spacing: 0.15px;
+	border: none;
+	outline: none;
+  font-family: "Montserrat", sans-serif;
+	color: #a8a7a7;
+  background-color: #edf2f0;
+  margin-bottom: 30px;
+
+}
+label{
+  color: #5c5959;
+}
+button{
+  width: 200px;
+	height: 55px;
+	border-radius: 27.5px;
+	margin-top: 20px;
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 1.15px;
+	background-color: #44b390;
+	color: white;
+	border: 2px solid white;
+	outline: none;
+}
+h2{
+  color: #44b390;
+}
+.imagee{
+  width: 30px;
+  margin-right:10px ;
+}
+p{
+  font-size: 13px;
+  color:rgb(167, 165, 165);
+}
+a:hover{
+  transform: scale(1.015);
+  transition: .15s;
+}
+a:active{
+  transform: scale(.9);
+  transition: .15s;
+}
